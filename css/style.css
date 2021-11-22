@@ -133,9 +133,6 @@ img {
   margin-left: 30px;
 }
 
-/* .contacts-item + .contacts-item {
-
-} */
 .contacts-link {
   display: flex;
   font-weight: 500;
@@ -393,8 +390,9 @@ img {
 .client-item {
   width: 170px;
   height: 92px;
+  outline: 1px solid var(--icon-color);
+  border-radius: 4px;
 }
-
 .client-item + .client-item {
   margin-left: 30px;
 }
@@ -404,16 +402,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 4px;
   border-color: var(--icon-color);
   color: var(--icon-color);
-  border: 1px;
+  border-width: 1px;
 }
 .client-icon {
   fill: currentColor;
 }
-.client-link:hover,
-.client-link:focus {
+.client-item:hover .client-link,
+.client-item:focus .client-link {
   color: var(--accent-color);
 }
 
