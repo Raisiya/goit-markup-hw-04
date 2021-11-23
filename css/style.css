@@ -144,8 +144,8 @@ img {
   justify-content: center;
   align-items: baseline;
 }
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
   fill: var(--accent-color);
   cursor: pointer;
