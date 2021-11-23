@@ -131,6 +131,7 @@ img {
   justify-content: center;
   align-items: center;
   margin-left: 30px;
+  fill: var(--main-text-color);
 }
 
 .contacts-link {
@@ -141,7 +142,7 @@ img {
   color: var(--main-text-color);
   text-decoration: none;
   justify-content: center;
-  text-align: center;
+  align-items: baseline;
 }
 .contacts-item:hover,
 .contacts-item:focus {
@@ -170,6 +171,7 @@ img {
 }
 .hero {
   text-align: center;
+  margin: 0 auto;
 }
 .hero-title {
   margin-bottom: 30px;
@@ -411,6 +413,7 @@ img {
 /* -----Footer------ */
 .container-footer {
   display: flex;
+  align-items: baseline;
 }
 .footer {
   display: flex;
@@ -440,12 +443,6 @@ img {
 }
 .logo2 {
   color: var(--first-button-color);
-}
-.join {
-  padding-top: 64px;
-  padding-bottom: 108px;
-  justify-content: center;
-  align-items: center;
 }
 .join-title {
   margin-bottom: 20px;
